@@ -17,7 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Resources:
    # - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+   # - Learn markdown: "https://www.markdowntutorial.com/"
     - 如何成为一名黑客: "https://translations.readthedocs.io/en/latest/hacker_howto.html"
     - Programthink: "https://program-think.blogspot.com/"
  # Author's home: "https://deanattali.com"
