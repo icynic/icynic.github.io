@@ -16,9 +16,10 @@ author: icynic
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
+   # - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+    - 如何成为一名黑客:"https://translations.readthedocs.io/en/latest/hacker_howto.html"
+ # Author's home: "https://deanattali.com"
 
 # --- Logo --- #
 
