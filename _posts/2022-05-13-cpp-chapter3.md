@@ -1,3 +1,12 @@
+---
+layout: post
+title: c++ primer笔记 第三章 向量和字符串 
+subtitle: Each post also has a subtitle
+tags: [programming]
+comments: true
+---
+
+
 # 第 3 章 字符串、向量和数组
 `string` 表示长度可变的字符串，`vector` 表示长度可变的集合。
 迭代器是 `string` 和 `vector` 的配套类型，用于访问它们中的元素。
