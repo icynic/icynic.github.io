@@ -6,9 +6,7 @@ title: 关于开源软件
 
 subtitle: 我的清单
 
-cover-img: https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2hhcmV8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60
-
-tags: [software]
+tags: software
 
 ---
 
