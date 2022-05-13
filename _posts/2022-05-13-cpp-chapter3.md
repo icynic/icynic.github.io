@@ -1,7 +1,7 @@
 ---
 layout: post
-title: c++ primer笔记 第三章 向量和字符串 
-subtitle: Each post also has a subtitle
+title:  第三章 向量和字符串 
+subtitle: c++ primer笔记
 tags: [programming]
 comments: true
 ---
