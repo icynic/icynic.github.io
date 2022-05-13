@@ -4,7 +4,7 @@ layout: post
 
 title: 关于开源软件
 
-subtitle: 与我的清单
+subtitle: 我的清单
 
 tags: [software]
 
