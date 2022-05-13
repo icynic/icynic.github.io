@@ -2,7 +2,7 @@
 layout: post
 title:  第三章 向量和字符串 
 subtitle: c++ primer笔记
-tags: [programming]
+tags: [programming, c++, notes] 
 comments: true
 ---
 
@@ -10,9 +10,10 @@ comments: true
 # 第 3 章 字符串、向量和数组
 `string` 表示长度可变的字符串，`vector` 表示长度可变的集合。
 迭代器是 `string` 和 `vector` 的配套类型，用于访问它们中的元素。
-数组是更基础的类型
+数组是更基础的类型。  
 
-</br>
+
+
 
 ## 3.1 命名空间的 using 声明
 用 using 声明（using declaration）使用命名空间的成员更方便。
@@ -26,7 +27,7 @@ using std::cout; using std::endl; //一行可以放多条语句
 
 另：`using namespace std` 最方便，书里没有提到。
 
-</br>
+
 
 ## 3.2 标准库类型 string
 必须先包含 string 头文件。
@@ -62,7 +63,7 @@ size()方法返回字符串的长度，返回值是 `size_type` 类型的无符�
 
 ### 3.2.3 单独处理 string 对象中的字符
 cctype 头文件定义了一组标准库函数
-![[表 3.3.png]]
+![表 3.3.png](icynic.github.io/assets/img/表 3.3.png)
 
 注：C++标准库兼容了 C 标准库，文件名由 name.h 变为 cname（加了字母 c）
 
@@ -91,7 +92,7 @@ cout << s << endl;
 
 下标运算符（[ ]）访问字符串某个值。可以把下标类型设为 string:: size_type，确保它不小于 0
 
-</br>
+
 
 ## 3.3 标准库类型 vector
 表示同类型对象的集合，每个对象都有对应的索引。也常被称作容器（container）。
@@ -105,7 +106,7 @@ vector<int> ivec; //ivec保存int类型的对象
 vector<vector<string>> file; //file的元素是vector对象
 ```
 
-</br>
+
 
 ### 3.3.1 定义和初始化 vector 对象
 一般先创建空 vector，运行时再动态添加元素。
@@ -113,7 +114,7 @@ vector<vector<string>> file; //file的元素是vector对象
 注：区分圆括号（构造）和花括号（列表初始化）。
 无法列表初始化时，编译器会尝试用默认值初始化 vector 对象。
 
-</br>
+
 
 ### 3.3.2 向 vector 对象中添加元素
 push_back()方法把一个值变成 vector 对象的尾元素
@@ -130,7 +131,7 @@ a.insert(a.begin(),"元素")
 words.insert(--std::end(words) , std::begin(more), std::end(more));
 ```
 
-</br>
+
 
 ### 3.3.3 其他 vector 操作
 ![[表 3.5.png]]
@@ -138,7 +139,7 @@ words.insert(--std::end(words) , std::begin(more), std::end(more));
 注：不能用下标形式添加元素，正确方法是用 push_back，尽可能用范围 for 语句 。
 因为下标只能访问已存在的元素，否则会产生严重问题。
 
-</br>
+
 
 ### 注 vector 删除元素
 
@@ -152,7 +153,7 @@ iterator erase (const_iterator first, const_iterator last);
 ```
 clear()方法删除所有元素。
 
-</br>
+
 
 ## 3.4 迭代器（iterator）介绍
 提供对对象的间接访问，其对象是容器中的元素或 string 对象中的字符。
@@ -194,20 +195,20 @@ for (auto it = text.cbegin());
 
 注：不能在范围 for 循环中向 vector 对象添加元素。任何可能改变 vector 对象容量的操作都会使迭代器失效。
 
-</br>
+
 
 ### 3.4.2 迭代器运算
 所有标准库容器都有支持递增运算和\==、!=的迭代器。
 但 vector 和 string 的迭代器提供了更多额外运算符。
 ![[表 3.7.png]] ^38ceb0
 
-</br>
+
 
 ## 3.5 数组
 
 数组也是存放同类对象的容器，但大小不变，不能随意增加元素。
 
-</br>
+
 
 ### 3.5.1 定义和初始化内置数组
 ```c++
