@@ -63,7 +63,7 @@ size()方法返回字符串的长度，返回值是 `size_type` 类型的无符�
 
 ### 3.2.3 单独处理 string 对象中的字符
 cctype 头文件定义了一组标准库函数
-![表 3.3.png](icynic.github.io/assets/img/表 3.3.png)
+![表 3.3.png](/assets/img/table3.3.png)
 
 注：C++标准库兼容了 C 标准库，文件名由 name.h 变为 cname（加了字母 c）
 
@@ -110,7 +110,7 @@ vector<vector<string>> file; //file的元素是vector对象
 
 ### 3.3.1 定义和初始化 vector 对象
 一般先创建空 vector，运行时再动态添加元素。
-![[表 3.4.png]]
+![表 3.4.png](/assets/img/table3.4.png)
 注：区分圆括号（构造）和花括号（列表初始化）。
 无法列表初始化时，编译器会尝试用默认值初始化 vector 对象。
 
@@ -134,7 +134,7 @@ words.insert(--std::end(words) , std::begin(more), std::end(more));
 
 
 ### 3.3.3 其他 vector 操作
-![[表 3.5.png]]
+![表 3.5.png](/assets/img/table3.5.png)
 
 注：不能用下标形式添加元素，正确方法是用 push_back，尽可能用范围 for 语句 。
 因为下标只能访问已存在的元素，否则会产生严重问题。
@@ -170,7 +170,7 @@ auto b = v.begin(), e = v.end();
 end()方法返回的迭代器，称为尾后迭代器，指示的是本不存在的尾后元素，只是标记。
 如果容器为空，begin()和 end()返回的都是同一个尾后迭代器。
 
-![[表 3.6.png]]   ^55f7c3
+![表 3.6.png](/assets/img/table3.6.png)
 
 和指针类似，可以通过解引用（\*）获取迭代器指示的元素。
 
@@ -200,7 +200,7 @@ for (auto it = text.cbegin());
 ### 3.4.2 迭代器运算
 所有标准库容器都有支持递增运算和\==、!=的迭代器。
 但 vector 和 string 的迭代器提供了更多额外运算符。
-![[表 3.7.png]] ^38ceb0
+![表 3.7.png](/assets/img/table3.7.png)
 
 
 
@@ -227,7 +227,7 @@ for (auto it = text.cbegin());
 ### 3.5.3 指针和数组
 数组名字等价于一个指向数组首元素的指针。
 
-vector和string的迭代器支持的运算，数组的指针全都支持（[[#^55f7c3|表3.6]]和[[#^38ceb0|表3.7]]）。
+vector和string的迭代器支持的运算，数组的指针全都支持。
 
 标准库函数begin()和end()与容器中两个同名方法功能类似。
 ```c++
@@ -243,7 +243,7 @@ int *last = end(ia);  //指向尾后元素的指针
 不方便，极易引发程序漏洞。
 
 定义在cstring头文件：
-![[Pasted image 20220511211208.png]]
+![table3.8.png](/assets/img/table3.8.png)
 
 （即字符数组，名字是指针）
 
