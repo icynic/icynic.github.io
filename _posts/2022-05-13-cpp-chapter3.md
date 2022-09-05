@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  第三章 向量和字符串 
-subtitle: c++ primer笔记
-tags: [programming, c++, notes] 
+title:  C++ Primer 第三章 
+subtitle: 字符串、向量和数组
+tags: [programming, c++, reading notes] 
 comments: true
 ---
 
