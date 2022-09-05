@@ -2,7 +2,7 @@
 layout: post
 title: On Java 8 第三章 
 subtitle: 万物皆对象
-tags: [reading notes]
+tags: [reading notes, java, programming]
 ---
 
 Java 中的所有代码都必须写在类里。
