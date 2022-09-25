@@ -1,3 +1,10 @@
+---
+layout: post
+title: 《快速阅读术》读书笔记
+subtitle: 流水式阅读
+tags: [reading notes, reading method, education]
+---
+
 
 这本书是在图书馆偶然发现的，篇幅很短，不到半小时就可以看完。作者是日本的书评人，每年读700本以上的书。
 
