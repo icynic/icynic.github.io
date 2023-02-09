@@ -6,7 +6,7 @@ tags: [Unix, Programming, OS]
 
 ---
 
-[![UNIX编程艺术](https://img1.doubanio.com/view/subject/s/public/s1631790.jpg " ")](https://img1.doubanio.com/view/subject/l/public/s1631790.jpg "UNIX编程艺术")
+![UNIX编程艺术](https://img1.doubanio.com/view/subject/s/public/s1631790.jpg)
 
 本书作者是著名黑客、开源运动先锋 Eric Steven Raymod（代号 ESR），他也是《大教堂与集市》的作者。
 
